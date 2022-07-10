@@ -1,0 +1,4 @@
+language = "bash"
+# run = "echo michalidoo's learning thingimabobber"
+compile = "cc learning.c -o learnc"
+run = "./learnc"
