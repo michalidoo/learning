@@ -60,9 +60,9 @@ int main() {
 	printf("firstArray[5] = %d\n", firstArray[5]);
 
 	//strings! (they're really just lists!)
-	char firstString[] = {'M','i','c','h','a','l','i'};
-	char secondString[] = "Michali is awesome!";
-	printf("%s\n%s", firstString, secondString);
+	char firstString[] = {'M','i','c','h','a','l','i',0};
+	char secondString[20] = "Michali is awesome!";
+	printf("%s\n%s\n", firstString, secondString);
 	
 	
 	return 0;
