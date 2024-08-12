@@ -63,7 +63,9 @@ int main() {
 	char firstString[] = {'M','i','c','h','a','l','i',0};
 	char secondString[20] = "Michali is awesome!";
 	printf("%s\n%s\n", firstString, secondString);
-	
+
+	//logic
+	if(firstInt )
 	
 	return 0;
 }
