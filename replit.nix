@@ -1,7 +1,5 @@
-{ pkgs }: {
+{ pkgs, legacyPolygott }: {
 	deps = [
-		pkgs.gcc
-		pkgs.gdb
-		pkgs.gnumake
-	];
+		pkgs.bashInteractive
+	] ++ legacyPolygott;
 }

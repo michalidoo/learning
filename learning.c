@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main() {
-	//printing
+int main(void) {
+	//printing;
 	printf("Hello world\n");
 	
 	//variables
@@ -33,7 +33,7 @@ int main() {
 	printf("firstInt = %d\n", firstInt);
 
 	//increment/decrement
-	firstInt++;
+	firstInt++; //firstInt += 1;
 	printf("firstInt = %d\n", firstInt);
 	firstInt--;
 	printf("firstInt = %d\n", firstInt);
@@ -54,18 +54,33 @@ int main() {
 	int thirdArray[9] = {5,32,7};
 	printf("firstArray[0] = %d\n", firstArray[0]);
 	printf("firstArray[1] = %d\n", firstArray[1]);
-	printf("firstArray[2] = %d\n", firstArray[2]);
-	printf("firstArray[3] = %d\n", firstArray[3]);
-	printf("firstArray[4] = %d\n", firstArray[4]);
 	printf("firstArray[5] = %d\n", firstArray[5]);
+	printf("firstArray[29] = %d\n", firstArray[29]);
+	// ...
+	printf("thirdArray[5] = %d\n", thirdArray[5]);
 
-	//strings! (they're really just lists!)
+	//strings! (they're really just arrays!)
 	char firstString[] = {'M','i','c','h','a','l','i',0};
 	char secondString[20] = "Michali is awesome!";
 	printf("%s\n%s\n", firstString, secondString);
 
-	//logic
-	if(firstInt )
+	printf("\n");
 	
+	//logic
+	if (firstInt == 2) {
+		printf("firstInt is 2!\n");
+	} else if (firstInt == 105) {
+		printf("firstInt is 105!\n");
+	} else {
+		printf("firstInt is not that value!\n");
+	}
+
+	int iterator = 5;
+	while (iterator > 0) {
+		printf("%d\n", iterator);
+		iterator--;
+	}
+
+	printf("done!\n");
 	return 0;
 }
